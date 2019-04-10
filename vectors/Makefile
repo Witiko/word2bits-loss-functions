@@ -1,6 +1,10 @@
+.PHONY: FORCE
+
+.ONESHELL:
+SHELL=/bin/bash
+
 LAMBDAS=0.0 0.001 0.01 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.99 0.999 1.0
 NPROC=$(shell nproc)
-SHELL=/bin/bash
 
 FORCE:
 
@@ -16,9 +20,8 @@ fil8:
 %_sparsification: FORCE
 	make $(addprefix $@/1b_1000d_vectors_,$(addsuffix _e10_nonbin,$(LAMBDAS)))
 
-PRODUCE_VECTORS=\
-
 %: fil8
+	set -e
 	(cd ../Word2Bits && git checkout $(patsubst %/,%,$(dir $@))) && \
 	make -C ../Word2Bits word2bits && \
 	mkdir -p $(dir $@) && \

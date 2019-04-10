@@ -1,0 +1,44 @@
+Starting eval...
+capital-common-countries:
+ACCURACY TOP1: 65.02 %  (329 / 506)
+Total accuracy: 65.02 %   Semantic accuracy: 65.02 %   Syntactic accuracy: -nan % 
+capital-world:
+ACCURACY TOP1: 35.97 %  (976 / 2713)
+Total accuracy: 40.54 %   Semantic accuracy: 40.54 %   Syntactic accuracy: -nan % 
+currency:
+ACCURACY TOP1: 1.44 %  (6 / 416)
+Total accuracy: 36.07 %   Semantic accuracy: 36.07 %   Syntactic accuracy: -nan % 
+city-in-state:
+ACCURACY TOP1: 36.87 %  (831 / 2254)
+Total accuracy: 36.37 %   Semantic accuracy: 36.37 %   Syntactic accuracy: -nan % 
+family:
+ACCURACY TOP1: 32.86 %  (138 / 420)
+Total accuracy: 36.14 %   Semantic accuracy: 36.14 %   Syntactic accuracy: -nan % 
+gram1-adjective-to-adverb:
+ACCURACY TOP1: 1.31 %  (13 / 992)
+Total accuracy: 31.41 %   Semantic accuracy: 36.14 %   Syntactic accuracy: 1.31 % 
+gram2-opposite:
+ACCURACY TOP1: 5.08 %  (33 / 650)
+Total accuracy: 29.25 %   Semantic accuracy: 36.14 %   Syntactic accuracy: 2.80 % 
+gram3-comparative:
+ACCURACY TOP1: 13.96 %  (186 / 1332)
+Total accuracy: 27.06 %   Semantic accuracy: 36.14 %   Syntactic accuracy: 7.80 % 
+gram4-superlative:
+ACCURACY TOP1: 5.67 %  (46 / 812)
+Total accuracy: 25.34 %   Semantic accuracy: 36.14 %   Syntactic accuracy: 7.34 % 
+gram5-present-participle:
+ACCURACY TOP1: 11.17 %  (118 / 1056)
+Total accuracy: 24.00 %   Semantic accuracy: 36.14 %   Syntactic accuracy: 8.18 % 
+gram6-nationality-adjective:
+ACCURACY TOP1: 62.13 %  (945 / 1521)
+Total accuracy: 28.57 %   Semantic accuracy: 36.14 %   Syntactic accuracy: 21.07 % 
+gram7-past-tense:
+ACCURACY TOP1: 15.11 %  (224 / 1482)
+Total accuracy: 27.17 %   Semantic accuracy: 36.14 %   Syntactic accuracy: 19.95 % 
+gram8-plural:
+ACCURACY TOP1: 34.52 %  (435 / 1260)
+Total accuracy: 27.77 %   Semantic accuracy: 36.14 %   Syntactic accuracy: 21.97 % 
+gram9-plural-verbs:
+ACCURACY TOP1: 11.84 %  (103 / 870)
+Total accuracy: 26.92 %   Semantic accuracy: 36.14 %   Syntactic accuracy: 21.08 % 
+Questions seen / total: 16284 19544   83.32 % 
